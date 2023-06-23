@@ -53,11 +53,11 @@
         <tfoot>
             <tr>
                 <th colspan="3">Total Income</th>
-                <td><!-- Your code --></td>
+                <td><?= $totals['totalIncome'] ?></td>
             </tr>
             <tr>
                 <th colspan="3">Total Expense:</th>
-                <td><!-- Your code --></td>
+                <td><?= $totals['totalExpense'] ?></td>
             </tr>
         </tfoot>
     </table>
