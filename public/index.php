@@ -18,5 +18,4 @@ $transactions = [];
 foreach($files as $file) {
     $transactions = array_merge($transactions, getTransactions($file));
 }
-
 require VIEWS_PATH . "transactions.php";
